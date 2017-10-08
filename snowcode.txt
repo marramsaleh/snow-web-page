@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+   <head>
+           <!--------- Required meta tag come first  ---->
+	 <meta charset="utf-8">
+         <meat name="viewport"  content="width=device-width, initial-scale=1.0">
+          <!--------font awesome---->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <!---------  Latest compiled and minified CSS  ---->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+           <!--------- css source---->
+          <link  href="snow2.css" rel="stylesheet">
+             <!--------- google font ---->
+	 <link href="https://fonts.googleapis.com/css?family=Bitter|Libre+Baskerville" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright|Abhaya+Libre" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Bitter|Dancing+Script|Libre+Baskerville" rel="stylesheet"> 
+  </head>
+
+  <body data-spy=".navbar" >
+   <div class="container-fluid">
+ 
+
+<div class="row"> 
+ <!---------------------Image Overlay------>
+   <div class="view">          
+         <div class="topbakground">
+                   <div class="col-lg-10">
+                          <!-----------------Navigator ---------------->
+                          <nav class="navbar navbar-expand-lg fixed-top " data-spy="affix" data-offset-top="400"  id="nav1">
+                        
+                               <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" 
+                                  data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                               </button>
+                                 <!----Nav brand ----->
+                                 <a class="navbar-brand " href="#">
+                                    <img  src="snow.png" class="logodecoration" alt="logo here">
+                                 </a> 
+                                   <!----------- for grouping and hiding navbar contents by a parent breakpoint.--->
+                                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                                            <ul class=" nav navbar-nav">
+                                                 <li class="nav-item active">
+                                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                                 </li>
+                                                 <li class="nav-item">
+                                                         <a class="nav-link" href="#">Features</a>
+                                                 </li>
+                                                 <li class="nav-item">
+                                                    <a class="nav-link" href="#">Pricing</a>
+                                                 </li>
+                                                 <li class="nav-item">
+                                                     <a class="nav-link disabled" href="#">Disabled</a>
+                                                 </li>
+                                          </ul>
+                                     </div>
+                              </nav>
+                     </div>
+                      <!----------------heading in the middle--->
+                     <div  class="designrow" >
+                                   <h6>New Branding Agency</h6>
+                                    <p class="title">We are about to change the way</p>
+                                    <p class="title2">you publish on the web</p>
+                                    <a href="#bookmark" >
+                                    <i class="fa fa-chevron-circle-down  iconstyle" href="#bookmark" aria-hidden="true"> </i>
+                                    </a>
+                    </div>
+               </div>               
+<!---------closing the row,view,overlay---->
+          </div>
+     </div>
+</div>
+                             <!------------Section two ---->
+                                         <div class="row mainline prslide " id ="bookmark" >
+                                                         <div class="col-lg-12 center-block  ">
+                                                                    <h1 class="hstyle">About Our Agency</h1><br>
+                                                                     <p> We are a new design studio based in USA. We have over
+                                                                        20 years of combined experience,and<br>
+                                                                        know a thing or two about designing websites and mobile apps.
+                                                                        Clever use of technology and lean<br>
+                                                                         processes enable us to work faster and smarter.
+                                                                     </p>
+                                                                     <img src="sig.png">
+                                                         </div>
+                                          </div>
+                            <!------------Icon Area---->
+                                        <div class="row  designicon  prslide">
+                                              <div class="col-lg-3 ">
+                                                       <div class="d-flex flex-row   justify-content-center" ">
+                                                           <i class="fa fa-briefcase " aria-hidden="true"></i>
+                                                           <p>548 <br>Projects Completed </p>
+                                                       </div>
+                                              </div>
+                                              <div class="col-lg-3 ">
+                                                        <div class="d-flex flex-row   justify-content-center">
+                                                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                             <p>548<br>  Projects Completed</p>
+                                                        </div>                                                                               
+                                              </div>
+                                              <div class= "col-lg-3  col-md-3 col-sm-3">
+                                                          <div class="d-flex flex-row   justify-content-center">
+                                                               <i class="fa fa-star-o" aria-hidden="true"> </i>
+                                                                <p>548<br>  Projects Completed </p>
+                                                         </div>
+                                              </div>                                                                       
+                                              <div class="col-lg-3 ">
+                                                            <div class="d-flex flex-row   justify-content-center"">
+                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                <p> 548<br>  Projects Completed</p>        
+                                                           </div>
+                                              </div>
+                                         </div> 
+                                <!--------------Image Gallery Arae Heading --------------------- ----->
+                                        <div class="row mainline prslide">
+                                                 <div class="col-lg-12 center-block ">
+                                                     <h1 class="hstyle">Best project</h1><br>
+                                                      <p> We are a new design studio based in USA. 
+                                                        We have over 20 years of combined experience,and<br>
+                                                        know a thing or two about designing websites 
+                                                        and mobile apps. Clever use of technology and lean<br>
+                                                        processes enable us to work faster and smarter. </p>
+                                                  </div>
+                                        </div>
+                           <!--------------Image Gallery Arae --------------------- ----->                                 
+                      <div class="row prslide">
+                                     <div class="col-lg-4 col-md-4"> 
+                                             <div class="row p-2">       
+                                                    <div class="img_Wrap">
+                                                          <img src="grey5.jpeg" class="img-fluid" alt="Responsive image">
+                                                          <div class="img_Description"><p>Records</p></div>  
+                                                     </div>
+                                              </div>
+                                              <div class="row p-2">
+                                                      <div class="img_Wrap">
+                                                            <img src="grey5.jpeg" class="img-fluid" alt="Responsive image">
+                                                            <div class="img_Description"> <p>Photography</p></div>
+                                                       </div>
+                                              </div>
+                                      </div>
+                                      <div class="col-lg-4 col-md-4"> 
+                                               <div class="row p-2">
+                                                       <div class="img_Wrap">                                               
+                                                             <img src="grey5.jpeg" class="img-fluid" alt="Responsive image">
+                                                             <div class="img_Description"><p>90's Vibes</p></div>  
+                                                      </div>
+                                               </div> 
+                                               <div class="row p-2"> 
+                                                       <div class="img_Wrap">                                               
+                                                              <img src="grey5.jpeg"  class="img-fluid" alt="Responsive image">
+                                                              <div class="img_Description"> <p>White T-Shirt</p></div>  
+                                                       </div>
+                                               </div>
+                                      </div>
+                                     <div class="col-lg-4 col-md-4  p-2">
+                                                   <div class="img_Wrap">                                               
+                                                           <img src="grey7.jpg"  class="img-fluid" alt="Responsive image">
+                                                            <div class="img_Description"><p>Football</p></div>  
+                                                    </div>
+                                           </div>
+                     </div>
+                 <!---------second row----> 
+                 <div class="row prslide ptopbottom">
+                                   <div class="col-lg-4 col-md-4 p-2">
+
+                                                     <div class="img_Wrap">    
+                                                             <img src="grey7.jpg"  class="img-fluid" alt="Responsive image">
+                                                             <div class="img_Description"><p>Animation and Games </p></div>  
+                                                     </div> 
+                                   </div>
+                                  <div class="col-lg-4 col-md-4 p-2">
+                                                    <div class="img_Wrap">
+                                                            <img src="grey7.jpg" class="img-fluid" alt="Responsive image"> 
+                                                            <div class="img_Description"><p>Vintage </p></div>  
+                                                  </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4">
+                                          <div class="row p-2"> 
+                                                    <div class="img_Wrap">
+                                                            <img src="grey5.jpeg"  class="img-fluid" alt="Responsive image">
+                                                            <div class="img_Description"><p>Music </p></div>  
+                                                    </div>
+                                          </div>
+                                          <div class="row p-2"> 
+                                                    <div class="img_Wrap">
+                                                            <img src="grey5.jpeg"  class="img-fluid" alt="Responsive image">
+                                                            <div class="img_Description"><p>Apple</p></div>  
+                                                    </div>
+                                         </div>
+                                 </div>
+ 
+                  </div>
+                <!-----------------------Carousel Quotes---->
+                 <div class="row slideshow prslide ptopbottoms">
+                           <div class="col-lg-12 center-block " id="carouselpointer">
+                                   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                         <div class="carousel-inner" role="listbox">
+                                              <ol class="carousel-indicators">s
+                                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                              </ol>
+
+                                               <div class="carousel-item active">
+                                                      <div class="fontslide title2 "> 
+                                                          <p> You must not lose faith in humanity. Humanity is an ocean; <br>
+                                                          if a few drops of the ocean are dirty, the ocean does not become dirty.<br>
+                                                          mahatma_gandhi</p>                                                         
+                                                      </div>
+                                              </div>
+                                              <div class="carousel-item">
+                                                    <div class="fontslide title2">
+                                                          <p>You must not lose faith in humanity. Humanity is an ocean; <br>
+                                                            if a few drops of the ocean are dirty, the ocean does not become dirty.<br>
+                                                             mahatma_gandhi</p>
+                                                    </div>
+                                             </div>
+                                             <div class="carousel-item">
+                                                   <div class="fontslide title2"> 
+                                                         <p>You must not lose faith in humanity. Humanity is an ocean; <br>
+                                                          if a few drops of the ocean are dirty, the ocean does not become dirty.<br>
+                                                           mahatma_gandhi </p>
+   
+                                                   </div>
+                                             </div> 
+                        
+                                       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                             <span class="sr-only">Previous</span>
+                                       </a>
+                                       <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                             <span class="sr-only">Next</span>
+                                       </a>
+                            </div>
+                      </div>
+                </div>                     
+           </div>
+
+<!---- Ending of carousel----->
+                       <div class="row justify-content-center branding special ">
+                                               <div class="col-lg-2  col-md-2 col-sm-2 block-center">
+                                                         <img src="logo1.png" class="col-log">
+                                                   </div>
+                                               
+                                                 <div class="col-lg-2  col-md-2 col-sm-2 block-center "> 
+                                                      <img src="logo2.png" class="col-log">
+                                                 </div>
+                                               
+                                                 <div class="col-lg-2   col-md-2 col-sm-2 block-center">
+                                                      <img src="logo3.png" class="col-log">
+                                                 </div>
+ 
+                                                  <div class="col-lg-2  col-md-2 col-sm-2 block-center"> 
+                                                     <img src="logo4.png" class="col-log">
+                                                  </div>
+
+                                                  <div class="col-lg-2   col-md-2 col-sm-2 block-center">
+                                                      <img src="logo5.png" class="col-log">
+                                                  </div>
+
+                        </div>
+
+<!-----------------latest trend------------>
+                      <div class="row pt-5 gLighter " >
+                                             <div class="col-lg-12   mainline center-block">
+                                                     
+                                                           <h1 class="hstyle">Latest Blog</h1><p>
+                                                              Donec orci sem, pretium ac dolor et, faucibus 
+                                                              faucibus mauris. Etiam,pellentesque faucibus.
+                                                             <br> Vestibulum gravida volutpat ipsum non ultrices.
+                                                                                              </p>
+                                               </div>
+                         </div>
+<!------------------slide image ------>
+ <div class="row prslide pb-5  gLighter" id="cardhover">
+
+       <div class="col-lg-12 center-block " id="carouselpointer">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                     <div class="carousel-inner" role="listbox">
+                                 <ol class="carousel-indicators">
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                 </ol>
+
+          <div class="carousel-item active">
+                       <div class="row" >
+                                <div class="col-md-4">
+                                                 <div class="card cardstyle img-btnwrapper">
+                                                              <img class="card-img-top" src="nature.jpeg" alt="Card image cap">
+                                                                   <div class="img-btnoverlay">
+                                                                        <button class="btn btn-sm  btncustome">Design</button>
+                                                                   </div>                                            
+                                                               <div class="card-body">
+                                                                   <h4 class="card-title">The History of Nature</h4>
+                                                                   <h6> AUGUST-14-2016</h6>
+                                                                   <p class="card-text">Donec orci sem, pretium ac dolor et, faucibus 
+                                                                   faucibus mauris. Etiam,pellentesque faucibus.</p>
+                                                               </div>
+                                                  </div> 
+                                  </div>   
+                          
+                              <div class="col-md-4"> 
+                                                   <div class="card   cardstyle img-btnwrapper">
+                                                            <img class="card-img-top" src="nature.jpeg" alt="Card image cap">
+                                                                <div class="img-btnoverlay">
+                                                                     <button class="btn btn-sm btncustome">Nature</button>
+                                                                </div>                                         
+                                                        <div class="card-body">
+                                                             <h4 class="card-title">The History of Nature</h4>
+                                                             <h6> AUGUST-14-2016</h6>
+                                                             <p class="card-text">Donec orci sem, pretium ac dolor et, faucibus faucibus
+                                                             mauris.  Etiam,pellentesque faucibus.</p>
+                                                        </div>
+                                                                                                 
+                                               </div>    
+                         
+                               </div>
+
+                               <div class="col-md-4 ">                                     
+                                               <div class="card cardstyle img-btnwrapper">
+                                                           <img class="card-img-top" src="nature.jpeg" alt="Card image cap">
+                                                                <div class="img-btnoverlay">
+                                                                     <button class="btn btn-sm btncustome">Nature</button>
+                                                               </div>
+                                                        <div class="card-body">
+                                                                 <h4 class="card-title">The History of Nature</h4>
+                                                                 <h6> AUGUST-14-2016</h6>
+                                                                 <p class="card-text">Donec orci sem, pretium ac dolor et, faucibus faucibus
+                                                                 mauris. Etiam,pellentesque faucibus.</p> 
+                                                        </div>
+        
+                                              </div>
+                            </div>
+
+                 </div>
+    </div>
+        <div class="carousel-item">
+                  <div class="row">
+                                   <div class="col-md-4"> 
+                                                  
+                                                      <div class="card cardstyle img-btnwrapper">
+                                                                 <img class="card-img-top" src="nature.jpeg" alt="Card image cap">
+                                                                 <div class="img-btnoverlay">
+                                                                     <button class="btn btn-sm  btncustome">Design</button>
+                                                                 </div>
+                                            
+                                                               <div class="card-body">
+                                                                  <h4 class="card-title">The History of Nature</h4>
+                                                                  <h6> AUGUST-14-2016</h6>
+                                                                  <p class="card-text">Donec orci sem, pretium ac dolor et, faucibus 
+                                                                  faucibus mauris. Etiam,pellentesque faucibus.</p>
+                                                               </div>
+                                                    </div> 
+                                     </div>   
+                          
+                                    <div class="col-md-4"> 
+                                                    
+                                                <div class="card   cardstyle img-img-btnwrapper">
+                                                              <img class="card-img-top" src="nature.jpeg" alt="Card image cap">
+                                                               <div class="img-btnoverlay">
+                                                                    <button class="btn btn-sm btncustome">Nature</button>
+                                                               </div>
+                                         
+                                                        <div class="card-body">
+                                                             <h4 class="card-title">The History of Nature</h4>
+                                                             <h6> AUGUST-14-2016</h6>
+                                                             <p class="card-text">Donec orci sem, pretium ac dolor et, faucibus faucibus
+                                                             mauris.  Etiam,pellentesque faucibus.</p>
+                                                        </div>
+                                                                                                 
+                                               </div>    
+                         
+                                </div>
+
+                                <div class="col-md-4 ">                                     
+                                             <div class="card cardstyle img-btnwrapper">
+                                                         <img class="card-img-top" src="nature.jpeg" alt="Card image cap">
+                                                             <div class="img-btnoverlay">
+                                                                <button class="btn btn-sm btncustome">Nature</button>
+                                                             </div>
+
+                                                         <div class="card-body">
+                                                                 <h4 class="card-title">The History of Nature</h4>
+                                                                 <h6> AUGUST-14-2016</h6>
+                                                                 <p class="card-text">Donec orci sem, pretium ac dolor et, faucibus faucibus
+                                                                 mauris. Etiam,pellentesque faucibus.</p> 
+                                                          </div>
+        
+                                              </div>
+                                 </div>
+
+          </div>    
+</div>
+  <div class="carousel-item">
+                    <div class="row">
+                                     <div class="col-md-4"> 
+                                                  
+                                                      <div class="card cardstyle img-btnwrapper">
+                                                              <img class="card-img-top" src="nature.jpeg" alt="Card image cap">
+                                                                 <div class="img-btnoverlay">
+                                                                     <button class="btn btn-sm  btncustome">Design</button>
+                                                                 </div>
+                                            
+                                                               <div class="card-body">
+                                                                   <h4 class="card-title">The History of Nature</h4>
+                                                                   <h6> AUGUST-14-2016</h6>
+                                                                   <p class="card-text">Donec orci sem, pretium ac dolor et, faucibus 
+                                                                   faucibus mauris. Etiam,pellentesque faucibus.</p>
+                                                                </div>
+                                                    </div> 
+                                     </div>   
+                          
+                                       
+                                        
+                              <div class="col-md-4"> 
+                                                    
+                                                <div class="card   cardstyle img-wrapper img-btnwrapper">
+                                                          <img class="card-img-top" src="nature.jpeg" alt="Card image cap">
+                                                               <div class="img-btnoverlay">
+                                                                    <button class="btn btn-sm btncustome">Nature</button>
+                                                               </div>
+                                         
+                                                        <div class="card-body">
+                                                             <h4 class="card-title">The History of Nature</h4>
+                                                             <h6> AUGUST-14-2016</h6>
+                                                             <p class="card-text">Donec orci sem, pretium ac dolor et, faucibus faucibus
+                                                             mauris.  Etiam,pellentesque faucibus.</p>
+                                                        </div>
+                                                                                                 
+                                               </div>    
+                         
+                              </div>
+
+                                <div class="col-md-4 ">                                     
+                                             <div class="card cardstyle img-btnwrapper">
+                                                         <img class="card-img-top" src="nature.jpeg" alt="Card image cap">
+                                                                <button class="btn btn-sm btncustome">Nature</button>
+                                                             </div>
+
+                                                         <div class="card-body">
+                                                                 <h4 class="card-title">The History of Nature</h4>
+                                                                 <h6> AUGUST-14-2016</h6>
+                                                                 <p class="card-text">Donec orci sem, pretium ac dolor et, faucibus faucibus
+                                                                 mauris. Etiam,pellentesque faucibus.</p> 
+                                                          </div>
+        
+                                              </div>
+                                 </div>
+
+                 </div>    
+
+                                    
+  </div> 
+                        
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                                </a>
+
+                </div>
+         </div>
+    </div> 
+
+</div>                                
+ <!--------------------------------------------------Contact Info---->
+                  
+       <div class="row prslide pt-5 gDarker">
+                <div class="col-lg-4 ">
+                                    <div class="formstyle">
+                                                                  
+                                            <div> <h1 class="hstyle">contact info</h1><br>
+                                                       <p> Praesent interdum congue mauris, et fringilla lacus pel<br>
+                                                        vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse <br>
+                                                        vitae sapien at imperdiet risus. Quisque cursus risus id.<br> 
+                                                       fermentum, in auctor quam consectetur.</p> 
+                                                          
+             
+                                                             <div> <p> <strong>Address:</strong> 10111 Santa Monica Boulevard, LA</p></div>
+                                                              <div> <p> <strong>Phone:</strong> +44 987 065 908</p></div>      
+                                                              <div> <p> <strong>Email:</strong> info@Example.com</p></div>
+                                                              <div> <p> <strong>Fax:</strong>  +44 987 065 909</p></div>
+                                             </div>
+                                  </div>
+                        </div>
+              
+                          <div class="col-lg-8 ">
+                                     
+                                      <div class="row">
+                                                 <div class="col-6">
+                                                     <input type="text" class="form-control border-0 rounded-0" placeholder="First name">     
+                                                   </div>
+                                                  <div class="col-6">
+                                                     <input type="text" class="form-control border-0 rounded-0" placeholder="Last name">     
+                                  </div></div>
+                                     
+
+                          <form>
+                              <div class="form-group pt-3 ">
+                                  <input type="text" class="form-control border-0 rounded-0" id="formGroupExampleInput2"
+                                                                         placeholder="Another input">
+                              </div>
+                              <div class="form-group">
+                                <input class="form-control  border-0 rounded-0" id="extampleField" placeholder="Type here" type="text">
+                              </div>
+                              <div class="form-group">
+                                  <textarea class="form-control border-0 rounded-0" id="exampleFormControlTextarea1" rows="6"></textarea>
+                              </div>
+
+                               <button type="submit" class="btn btn-dark btn-lg  btncustome">Sign in</button>
+                         </form>
+                     </div> 
+  
+</div>
+
+<!-----------footer------>
+ 
+          
+   <div class="bgfooter">
+         <div class="darkbakground">
+                  <div class="row prslide pt-5 ">
+                                  <div class="col-lg-4"> 
+                                                 <div class="f-content">
+                                                        <h4 class="hfooter"> About US</h4><br>
+                                                            <p>
+                                                             Aenean mattis augue in arcu tempor bibendum. 
+                                                             Nam euismod facilisis magna, quis pharetra
+                                                             turpis molestie eu. Integer feugiat arcu sit amet<br>
+                                                             leo ullamcorper feugiat efficitur.
+                                                                    </p><br>
+                                                          <div> <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                              <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                              <i class="fa fa-dribbble" aria-hidden="true"></i>
+                                                              <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                          </div> 
+                                                 </div>
+                                    </div>
+                                  <div class="col-lg-4"> 
+                                             <div class=" f-content">
+                                                     <h4 class="hfooter"> Latest Tweets </h4><br>
+                                                        <div class="d-flex flex-row">
+                                                               <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                               <p> <a href="#"> @serifim_design</a>
+                                                                What about templates <br>
+                                                               like Umbrella (where design we get from <br>
+                                                               3rd party designer)... I'm not sure be… 
+                                                               <a href="#"> twitter.com/i/web/status/9… </a></p>
+                                                       </div>
+
+                                                        <div class="d-flex flex-row">
+                                                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                                <p> <a href="#"> @serifim_design</a>
+                                                                What about templates <br>
+                                                               like Umbrella (where design we get from <br>
+                                                               3rd party designer)... I'm not sure be… 
+                                                                 <a href="#"> twitter.com/i/web/status/9… </a></p>
+                                                       </div>
+                                            </div>
+                                 </div>
+
+                                  <!-----instagram---->
+                                 <div class="col-lg-4  f-content">
+                                                <h4 class="hfooter"> Instagram </h4><br>
+                                                     <div class="row">                                                           
+                                        
+                                                              <div class="row nopadding">
+                                                                    <div class="col-lg-3">
+                                                                       <img src="grey.jpeg" class="img-fluid" alt="Responsive image" >
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                        <img src="grey.jpeg" class="img-fluid" alt="Responsive image" >
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                        <img src="grey.jpeg" class="img-fluid" alt="Responsive image" >
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                       <img src="grey.jpeg" class="img-fluid" alt="Responsive image" >
+                                                                    </div>
+                                                              </div>
+                                                             <div class="row nopadding">
+                                                                   <div class="col-lg-3 ">
+                                                                       <img src="grey.jpeg" class="img-fluid" alt="Responsive image" >
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                        <img src="grey.jpeg" class="img-fluid" alt="Responsive image" >
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                        <img src="grey.jpeg" class="img-fluid" alt="Responsive image" >
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                       <img src="grey.jpeg" class="img-fluid" alt="Responsive image" >
+                                                                    </div>
+                                                              </div>
+                                                   </div>
+                                    </div>
+                <!----Ending Of The Column--->
+
+                             
+                     </div>
+                   <footer >
+                          <div class=" row pt-5 "> 
+                              <div class="col-lg-12   center-block">
+                                 <p>2016 © Design by Unvab. Code by nK</p>
+                               </div>
+                           </div></footer> 
+
+
+
+
+
+
+             </div>
+      </div>
+                      
+</div>
+
+<!-----------------java script------------>
+
+ <script scr="snow.js" > </script>
+<script scr="jQuery 3.2.1.js" > </script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<!-- jQuery library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
