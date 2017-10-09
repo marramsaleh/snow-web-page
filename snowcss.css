@@ -1,0 +1,305 @@
+
+/* custome style sheet*/	
+
+html,body{
+margin: 0;
+padding:0;
+height: 100%;
+width:100%;
+color:#5f5f5f;
+font-family: "Work Sans",sans-serif;
+line-height: 1.65;
+letter-spacing: .004em;}
+
+/*Main Area Image N Overlay*/
+                                
+.view{
+background-image: url('snow-bg-copy.jpg') ; 
+min-height:680px;
+width:100%;
+background-size: cover;
+background-position:center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover; }
+  
+
+.topbakground{
+background-color:rgba(0,0,0,0.5);
+min-height:680px;
+width:100%;
+z-index:-5;}
+
+
+
+
+
+/*Nav Area*/
+
+
+
+
+
+
+.opacity-nav{ 
+background-color:black;
+height:80px;} 
+
+a{color:white;}
+
+.logodecoration{
+width:50%;
+height:50%;}
+
+.title{
+font-size:2.8em;
+color:white;
+font-weight:600;
+font-family: 'Bitter', serif;}
+.view h6{
+font-weight: 700;
+font-family: Playfair Display, serif;}
+
+/*  Common Header style All Over The Page*/
+.hstyle{ 
+font-family: 'Bitter', serif;
+color:black;}
+/* Title In The Middle Of The Main Image */
+.title2{
+font-family: 'Bitter', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Dancing Script', cursive;
+font-size:5em;}
+
+.designrow{
+color:white;
+text-align:center;
+padding-top:10%;}
+
+.iconstyle{ 
+font-size: 3em;
+padding-top:120px;}
+ 
+.mainline{
+min-height:322px;
+text-align:center;
+width:100%;
+padding-top:6%;}
+
+.mainline p{
+color:#7a7a7a;}
+
+/* Classes For The <i> tag */
+.designicon{
+width:100%;
+min-height:243px;
+padding: 60px 0;
+background-image:url('background.jpeg');
+text-align:left;}
+
+.designicon p{
+color:white;
+padding:4%;}
+
+.designicon i{
+color: white ; 
+font-size:50px;}
+
+/*Card Font ColorStyle */
+.gDarker
+{ background-color:#efeded;}
+.gLighter{color: #f4f2f2;}
+.cardstyle{width:100%;}
+
+.card-title{ 
+font-family: 'Bitter', serif;
+color:black;}
+/* Image Card Hover*/
+.card:hover img
+{opacity:0.4;
+transition:0.5s;}
+
+.card-text{color:#5f5f5f;}
+.cardstyle{
+border:0; }
+
+  
+/* Image Wrapper for  image */
+.img_Wrap{
+margin: 0;
+position:relative;
+width: 100%;}
+
+.img_Wrap img{
+height:auto;
+width:100%;
+display:block;}
+
+.img_Description{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(230, 230, 230, 0.9);
+color: black;
+visibility: hidden;
+opacity: 0;
+height: 100%;
+width: 100%;
+transition:0.5s;}
+
+.img_Description>p{
+color:black;
+font-family:'Bitter', serif;
+font-size: 3em;
+font-weight:700;
+text-align:center;
+transition:0.5s;
+top:30%;
+left:10%;
+position:absolute;}
+
+.img_Wrap:hover .img_Description{
+visibility: visible;
+opacity: 1;}
+
+
+
+/* padding image gallery*/
+.ptopbottom{
+padding-top:6%;
+padding-bottom:6%; }
+
+/*row padding carousel*/
+ 
+.prslide{
+padding-right:8%;
+padding-left:8%;}
+
+/* Stlye For THe Carousel bg & font*/
+
+.slideshow{ 
+min-height:400px;
+background-image:url("black.jpg");
+width:100%;
+text-align:center;}
+
+.fontslide{
+padding-top:6%;
+padding-bottom:6%;
+text-align:center;
+font-size: 30px;
+color:white; }
+
+#carouselpointer{cursor:grab;}
+
+/* Branding 5 Image Area*/
+.branding{
+min-height:200px;
+width:100%;}
+             
+.col-log{ 
+width:100%;
+min-height:70%;}
+
+.special
+{cursor: grab;}
+
+ /*Image Gallery*/
+.latestblog{
+width:100%;
+min-height:900px;
+background-color:#DCDCDC;}
+/* Contact Info */
+.formstyle{
+width:100%;
+margin-top:10px;}
+
+.formstyle p{
+color:#7a7a7a;
+font-size:14px;
+text-align:center;}
+p strong{ 
+color:black;}
+
+.btncustome{ 
+width:40%;
+background-color:black;
+font:white;}
+
+.bgfooter{ 
+background:url('boards-glasses-smartphone-phone-75652.jpeg');
+min-height:500px;
+z-index:-10;  
+position:absolute;
+width:100%;}
+
+.darkbakground{
+background-color:rgba(0,0,0,0.9);
+position:relative;
+min-height:500px;
+width:100%;
+z-index:-5;}
+
+.hfooter{
+font-family: 'Bitter', serif;}
+
+/* for whitening the font over the Overlay*/
+.f-content{
+color:white;
+font-family: "Work Sans",sans-serif;
+line-height: 1.25;
+letter-spacing: .002em;}
+footer p{color:white;
+font-family: 'Bitter', serif;
+text-align:center;}
+
+footer a{
+color:blue;}
+footer{
+margin-bottom:0;}
+/* instagram Image editing*/
+.nopadding .col-lg-3{
+padding-right:0;
+padding-left:0;}
+.nopadding .col-lg-3{
+padding:0.5em;}
+
+/*--- btn overlay ----*/
+.img-btnwrapper{
+position: relative;}
+
+.img-btnoverlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+text-align: left;}
+
+.img-btnoverlay:before {
+content: ' ';
+display: block;
+ /* adjust 'height' to position overlay content vertically */
+height: 34%;}
+.btncustome{
+width:30%;
+border-radius: 1px;
+color:white;
+margin-left:4%;}
+
+.cardp p{
+color:#7a7a7a;
+font-size:30px;}
+
+.card-body h6{
+font-size:11px;
+font-weight:700;
+color:black;
+font-family:Playfair Display, serif;}
+
+.fa{padding:2%;}
+
+/*-------------------*/
+
